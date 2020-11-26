@@ -1,0 +1,40 @@
+.NavRes {
+	width: 95%;
+	height: auto;
+	text-align: center;
+	background-color: hsl(257, 27%, 26%);
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px 0;
+	border-radius: 10px;
+}
+.NavRes hr {
+	width: 85%;
+}
+.NavRes a {
+	color: #fff;
+	font-size: larger;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.NavRes a:hover {
+	color: hsl(180, 66%, 49%);
+}
+
+.sign-up {
+	width: 70%;
+	margin: auto;
+	padding: 10px 0;
+	color: #fff;
+	background-color: hsl(180, 66%, 49%);
+	border-radius: 30px;
+}
+.sign-up:hover {
+	color: #fff !important;
+	filter: brightness(110%);
+}

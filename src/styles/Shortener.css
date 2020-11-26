@@ -1,0 +1,109 @@
+.Shortener {
+	background-color: #f0f1f6;
+	min-height: 40vh;
+	margin-top: 15%;
+}
+.go-up {
+	background-image: -webkit-linear-gradient(top, #fff, 50%, #fff, 50%, #f0f1f6);
+	background-image: -moz-linear-gradient(top, #fff, 50%, #fff, 50%, #f0f1f6);
+	margin-bottom: 40px;
+}
+.shortener-bg {
+	background-color: hsl(257, 27%, 26%);
+	height: 150px;
+	width: 80%;
+	margin: auto;
+	position: relative;
+	border-radius: 10px;
+}
+.shortener-bg img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.shortener-up {
+}
+.shortener-up form {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 5%;
+}
+.shortener-up form input {
+	min-width: 70%;
+	height: 35%;
+	font-size: 20px;
+	padding: 0 15px;
+	border-radius: 5px;
+}
+.shortener-up form button {
+	min-width: 20%;
+	min-height: 35%;
+	background-color: hsl(180, 66%, 49%);
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}
+.shortener-up form button:hover {
+	filter: brightness(120%);
+}
+
+.short-urls {
+	padding: 10px 0 60px 0;
+}
+.short-url {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.short-url input, .short-url input:focus {
+	height: 90%;
+	width: 80%;
+	border: none;
+	font-size: 22px;
+}
+.loader {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+.loader img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+@media only screen and (max-width: 450px) {
+	.shortener-up {
+		padding: 15px;
+	}
+	.shortener-up input {
+		width: 80%;
+		margin: auto;
+	}
+	.shortener-up button {
+		width: 80%;
+		padding: 5px 30px;
+	}
+	.short-url input {
+		width: 90%;
+		margin-bottom: 25px;
+	}
+}

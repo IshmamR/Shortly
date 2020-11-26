@@ -1,0 +1,81 @@
+.Statistics {
+	background-color: #f0f1f6;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.Statistics h1 {
+	margin: 0;
+	font-size: 44px;
+	color: #222;
+}
+
+.Statistics p {
+	max-width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: hsl(0, 0%, 65%);
+}
+
+.flexer {
+	width: 85%;
+	min-height: 400px;
+	margin: auto;
+	padding: 100px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.br, .dt, .fc {
+	width: 350px;
+	height: 300px;
+	background-color: #fff;
+	position: relative;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+.br {
+	align-self: flex-start;
+}
+.dt {
+	align-self: center;
+}
+.fc {
+	align-self: flex-end;
+}
+
+.icon {
+	background-color: hsl(257, 27%, 26%);
+	padding: 0.8rem;
+	border: none;
+	width: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: -25px;
+	left: 25px;
+}
+.icon-text {
+	margin-top: 40px;
+	padding: 25px;
+	text-align: left;
+}
+.icon-text h2 {
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	.flexer {
+		height: auto;
+	}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 450px) {
+	.icon {
+		top: -25px;
+	}
+	.br, .dt, .fc {
+		height: auto;
+	}
+}
